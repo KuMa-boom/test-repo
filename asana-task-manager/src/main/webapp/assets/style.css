@@ -1,0 +1,64 @@
+body {
+    background-color: #f6f7fb;
+}
+
+.stat-card {
+    border: 1px solid #e6e8ef;
+}
+
+.stat-value {
+    font-size: 1.75rem;
+    font-weight: 600;
+    color: #212529;
+}
+
+.badge {
+    font-size: 0.85rem;
+}
+
+.table tbody tr:hover {
+    background-color: #f1f3f9;
+}
+
+.status-pill {
+    display: inline-block;
+    padding: 0.35rem 0.6rem;
+    border-radius: 999px;
+    font-weight: 600;
+    font-size: 0.8rem;
+}
+
+.status-pill.not-started {
+    background: #e9ecef;
+    color: #495057;
+}
+
+.status-pill.in-progress {
+    background: #e7f5ff;
+    color: #0c63e7;
+}
+
+.status-pill.blocked {
+    background: #fff4e6;
+    color: #d9480f;
+}
+
+.status-pill.complete {
+    background: #e6fcf5;
+    color: #099268;
+}
+
+.priority-high {
+    color: #d6336c;
+    font-weight: 600;
+}
+
+.priority-medium {
+    color: #f08c00;
+    font-weight: 600;
+}
+
+.priority-low {
+    color: #228be6;
+    font-weight: 600;
+}
